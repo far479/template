@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "outputDirectory": "public",
+  "regions": ["sin1"],
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.9.0",
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    { "src": "^/data(/.*)?$", "status": 404 },
+    { "src": "^/(header|footer|functions|data)\\.php$", "status": 404 },
+    { "src": "^/README\\.md$", "status": 404 },
+    { "src": "^/$", "dest": "/index.php" },
+    { "src": "^/([a-z0-9_-]+)$", "dest": "/$1.php" }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/index.php" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}

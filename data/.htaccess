@@ -1,0 +1,3 @@
+# Larangan akses langsung ke file data (JSON) dari browser.
+Options -Indexes
+Require all denied

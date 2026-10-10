@@ -1,0 +1,38 @@
+[
+    {
+        "nomor": "PPDB-2026-0001",
+        "tgl": "2026-10-03 09:24:00",
+        "nama": "Nabila Putri Azzahra",
+        "nik": "3277011509200004",
+        "unit": "SD",
+        "asal": "TK Cahaya Ceria",
+        "ortu": "Hendra Gunawan",
+        "wa": "081223344556",
+        "berkas": "",
+        "status": "Diterima"
+    },
+    {
+        "nomor": "PPDB-2026-0002",
+        "tgl": "2026-10-05 14:10:00",
+        "nama": "Rizky Maulana Yusuf",
+        "nik": "3277011007130012",
+        "unit": "SMP",
+        "asal": "SDN Sukahurip 1",
+        "ortu": "Yusuf Hidayat",
+        "wa": "085712349876",
+        "berkas": "",
+        "status": "Diverifikasi"
+    },
+    {
+        "nomor": "PPDB-2026-0003",
+        "tgl": "2026-10-07 08:45:00",
+        "nama": "Aisyah Rahmawati",
+        "nik": "3277015506210008",
+        "unit": "TK",
+        "asal": "RA Al-Falah",
+        "ortu": "Ahmad Sofyan",
+        "wa": "081398765432",
+        "berkas": "",
+        "status": "Baru"
+    }
+]
